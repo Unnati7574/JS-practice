@@ -79,6 +79,53 @@
                                              
                                              //  ex   object array
                                              
+
+//  ex   object array
+
+/*************************************** operation **********************************************/
+
+let value = 3
+
+let negValue = -value 
+console.log(negValue);
+
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(4**2);   // 4*2=8 8*3=16
+console.log(6/3);
+console.log(23%3); // 23 divide 3 => see reminder in below
+
+let str1 = "hello"
+let str2 = "    unnati"
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);  //  when we write first string value it will convert all are string
+console.log(1 + 2 + "2");  // but when we write first number value it will addition the string value print
+
+console.log((3+4)*5 % 3); 
+
+
+// console.log(+true);
+// console.log(+"");
+
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter);
+
+
+
+let gameCounteris = 100
+++gameCounteris
+console.log(gameCounteris);
+
+
+
                                              
                                              
                                              
