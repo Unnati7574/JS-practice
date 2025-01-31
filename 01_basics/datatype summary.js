@@ -49,4 +49,42 @@
             const myFunction = function(){
                 console.log("hello world"); 
             }
-        // non-primitive always typeof objectfunction    
+            
+            
+            // non primitive typeof always returns object
+            
+            /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+            
+            // stack and heap memory
+            
+            // stack(primitive) Heap(non-primitive)reference.
+            
+            let myfirstName = "unnati"         // in stack only change copy value not original value like "unnati".
+            
+            let mysecondname = myfirstName     
+            
+            mysecondname = "patel"               // second name change
+            
+            console.log(myfirstName);
+            
+            console.log(mysecondname);
+            
+            
+            
+            // heap memory : reference change value change means all variable value change   
+            
+            //you change user1.email heap memory also change user2.email
+            
+            let user1 = {
+                email:"unnu@gmail.com",
+                upi:"unnati@upl"
+            }
+            let user2 = user1;                  // reference copy of user1 in user2
+            
+            user2.email = "unnati@gmail.com";    // change in user2
+            
+            console.log(user1.email);            // change in user1 also
+            console.log(user2.email);
+            
+            
+            
